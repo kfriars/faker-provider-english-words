@@ -1,18 +1,25 @@
 {
     "name": "kfriars/faker-provider-english-words",
     "description": "A Faker provider for English words.",
-    "keywords": ["php", "faker", "fixtures", "data"],
+    "keywords": [
+        "php",
+        "faker",
+        "fixtures",
+        "data"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Bouchaala Reda",
             "email": "bouchaala.reda@gmail.com",
-            "homepage": "https://kfriars.github.io/"
+            "homepage": "https://breda.github.io/"
         }
     ],
     "autoload": {
-        "psr-4": { "Kfriars\\Faker\\": "src/Faker" }
+        "psr-4": {
+            "Kfriars\\Faker\\": "src/"
+        }
     },
     "require": {
         "php": "^8.2",
