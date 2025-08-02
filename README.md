@@ -8,6 +8,11 @@ Basically, the default [Lorem](https://github.com/fzaninotto/Faker/blob/master/s
 
 This provider does just one thing: It extends the default Lorem provider, and changes the word-list with English words (I got the dictionary from [here](https://github.com/dwyl/english-words), I removed a couple of lines however), which contain about __400k__ words.
 
+#### Requirements
+- PHP 8.2+
+- Laravel 12+ (compatible)
+- FakerPHP/Faker 1.23+
+
 #### Install
 ```shell
 $ composer require --dev breda/faker-provider-english-words
