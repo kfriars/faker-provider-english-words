@@ -24,7 +24,7 @@ $ composer require --dev breda/faker-provider-english-words
 // Create faker
 $faker = Faker\Factory::create();
 // Just make sure the default Lorem provider is not added after this. 
-$faker->addProvider(new BReda\Faker\Provider\EnglishWords($faker));
+$faker->addProvider(new Kfriars\Faker\Provider\EnglishWords($faker));
 ```
 
 ---
@@ -45,7 +45,7 @@ This will not throw an exception and will successfully print 200,000 unique word
 ```php
 // Create faker
 $faker = Faker\Factory::create();
-$faker->addProvider(new BReda\Faker\Provider\EnglishWords($faker));
+$faker->addProvider(new Kfriars\Faker\Provider\EnglishWords($faker));
 
 foreach(range(0, 200000) as $i) {
     echo $faker->unique()->word;
