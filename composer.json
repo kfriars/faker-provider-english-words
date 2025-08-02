@@ -21,8 +21,15 @@
             "Kfriars\\Faker\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Kfriars\\Faker\\": "src/"
+        }
+    },
     "require": {
         "php": "^8.2",
         "fakerphp/faker": "^1.23"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
